@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: brown;
+  color: aliceblue;
+  align-items: center;
+  justify-items: center;
+}
+.container{
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(50,6,6);
+  width: 90%x;
+  border-radius: 5px;
+}
+.my_pic{
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  border-radius: 50px;
+}
+.right_side{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mid{
+  width: 100%;
+  margin-left: 20px;
+}
+.left_side{
+  width: 100%;
+  margin-left: 20px;
+}
+h3{
+  margin-bottom: 10px;
+  color: blue;
+}
+.my_name, .job{
+  align-self: center;
+}
+.job{
+  margin-bottom: 20px;
+  color: rgb(68, 68, 253);
+}
+.head{
+  color: yellow;
+  margin-bottom: 1em;
+}
+.info{
+  margin-bottom: 10px;
+}
+.about_me{
+  width: 200px;
+}
+.fa-solid{
+  padding-right: 5px;
+}
+.fa-facebook{
+  padding-right: 5px;
+}
+.fa-linkedin{
+  padding-right: 5px;
+}
+.fa-face-meh{
+  padding-right: 5px;
+}
+.info:hover{
+  transform: scale(1.1);
+}
