@@ -21,7 +21,7 @@ $item3 = 300;
 	    echo "item 3 - (".$qty.") qty  remaining stocks = ";
 	    return $item_3;
 	  }
-	  else{
+	  else {
 	    echo "wrong item";
 	  }
 	}
