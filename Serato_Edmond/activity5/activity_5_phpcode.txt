@@ -12,14 +12,14 @@ $item3 = 300;
 	    return $item_1;
 	  }
 	  else if ($item == $item2){
-	    $item2 = $item2 - $qty;
-	    echo "item 2 - (".$qty.") qty  remaining stocks = ".$item2;
-	   
+	    $item_2 = $item2 - $qty;
+	    echo "item 2 - (".$qty.") qty  remaining stocks = ".$item_2;
+	    return $item_2;
 	  }
 	  else if ($item == $item3){
-	    $item3 = $item3 - $qty;
-	    echo "item 3 - (".$qty.") qty  remaining stocks = ".$item3;
-	   
+	    $item_3 = $item3 - $qty;
+	    echo "item 3 - (".$qty.") qty  remaining stocks = ".$item_3;
+	    return $item_3;
 	  }
 	  else{
 	    
@@ -27,4 +27,5 @@ $item3 = 300;
 	  
 	}
  stocksTotalQuantity($item3,50)
+ 
 ?>
