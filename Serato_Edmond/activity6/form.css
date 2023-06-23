@@ -1,0 +1,33 @@
+bo{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  position: fixed;
+  bottom: 25%;
+  right: 30%;
+  background-color: rgb(207, 177, 214);
+  color: var(--fontColor);
+  border-style: outset;
+  border-style: inset;
+  border-radius: 8px;
+  border-width: 4px;
+  border-color: solid #6554af;
+  box-shadow: 1px 1px 2px #6554af;
+  width: 28%;
+  height: 60%;
+  font-size: .8rem;
+}
+.formContainer{
+  padding-left:23%;
+}
+.password{
+  margin: 9px 0px;
+}
+.logIn{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
