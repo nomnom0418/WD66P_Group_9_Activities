@@ -3,68 +3,84 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-.warningEmpty{
-  background-color: rgb(248, 187, 187);
-  width: 162px;
-  font-size: .6rem;
-  transform: translateY(-10px);
-}
-.warningWrongPassword{
-  background-color: rgb(240, 175, 220);
-  width: 130px;
-  font-size: .6rem;
-  top: -5px;
-  transform: translateY(-10px);
-}
-.success{
-  background-color: rgb(169, 240, 169);
-  width: 77px;
-  font-size: .6rem;
-  top: -5px;
-  transform: translateY(-10px);
-}
-h3{
-  margin-left: 40%;
-}
-h4{
-  
-  line-height: .1px;
-}
 form{
   position: fixed;
   bottom: 50%;
   right: 50%;
   transform: translate(50%, 50%);
   background-color: rgb(207, 177, 214);
-  color: var(--fontColor);
   border-style: outset;
   border-style: inset;
   border-radius: 8px;
   border-width: 4px;
   border-color: solid #6554af;
   box-shadow: 1px 1px 2px #6554af;
-  width: 28%;
-  height: 350px;
+  width: 50%;
+  height: 400px;
   font-size: .8rem;
   font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid  #6554af;
 }
-.formContainer{
-  padding-left:23%;
-  
+.infoContainer{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
 }
-.password{
-  margin: 9px 0px;
+.greet{
+  padding-top: 5px;
+  padding-left: 10px;
 }
-.logIn{
+.headText{
+  width: 100%;
+  height: 25px;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.infoContainer div{
+  padding-left: 10px;
+}
+.button{
+  padding: 10px 0px;
+  width: 97%;
+  margin: 20px 10px;
+  background-color: #6554af;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button :hover{
+  background-color: #a296d8;
+}
+.area2{
+  height: 50px;
+}
+.area2 input{
+  width: 95%;
+  height: 20px;
+}
+.area7{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.area7 input{
+  height: 20px;
+  width: 84%;
+}
+.area7 select{
+  transform: translateX(-10px);
+  height: 25px;
+  width: 100%;
+}
+.area12{
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: end;
   align-items: center;
+  margin-right: 10px;
 }
-input{
-  width: 70%;
+.area12 input{
+  width: 50px;
+  padding-left: 30%;
 }
-/*----------------registration form---------*/
 /*----------------media Query---------------*/
 @media screen and (max-width: 920px) {
   h3{ 
