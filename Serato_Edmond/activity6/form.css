@@ -3,10 +3,17 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+h3{
+  margin-left: 40%;
+}
+h4{
+  padding-left: 10%;
+}
 form{
   position: fixed;
-  bottom: 25%;
-  right: 30%;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
   background-color: rgb(207, 177, 214);
   color: var(--fontColor);
   border-style: outset;
@@ -16,7 +23,7 @@ form{
   border-color: solid #6554af;
   box-shadow: 1px 1px 2px #6554af;
   width: 28%;
-  height: 70%;
+  height: 300px;
   font-size: .8rem;
 }
 .formContainer{
@@ -33,4 +40,57 @@ form{
 }
 input{
   width: 70%;
+}
+@media screen and (max-width: 920px) {
+  h3{ 
+    margin-left: 36%;
+  }
+}
+@media screen and (max-width: 920px) {
+  h4{ 
+    margin-left: -8%;
+  }
+  form{
+    font-size: .7rem;
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h3{ 
+    margin-left: 35%;
+  }
+  h4{ 
+    margin-left: -10%;
+  }
+  form{
+    font-size: .6rem;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 540px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 420px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+  }
 }
