@@ -16,7 +16,7 @@ form{
   border-color: solid #6554af;
   box-shadow: 1px 1px 2px #6554af;
   width: 28%;
-  height: 60%;
+  height: 70%;
   font-size: .8rem;
 }
 .formContainer{
@@ -30,4 +30,7 @@ form{
   justify-content: space-between;
   width: 70%;
   align-items: center;
+}
+input{
+  width: 70%;
 }
