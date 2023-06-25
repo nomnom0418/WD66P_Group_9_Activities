@@ -3,17 +3,32 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-.warning{
-  color: red;
+.warningEmpty{
+  background-color: rgb(248, 187, 187);
+  width: 162px;
+  font-size: .6rem;
+  transform: translateY(-10px);
+}
+.warningWrongPassword{
+  background-color: rgb(240, 175, 220);
+  width: 130px;
+  font-size: .6rem;
+  top: -5px;
+  transform: translateY(-10px);
 }
 .success{
-  color: green;
+  background-color: rgb(169, 240, 169);
+  width: 77px;
+  font-size: .6rem;
+  top: -5px;
+  transform: translateY(-10px);
 }
 h3{
   margin-left: 40%;
 }
 h4{
-  padding-left: 10%;
+  
+  line-height: .1px;
 }
 form{
   position: fixed;
@@ -31,6 +46,7 @@ form{
   width: 28%;
   height: 350px;
   font-size: .8rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .formContainer{
   padding-left:23%;
