@@ -3,6 +3,12 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.warning{
+  color: red;
+}
+.success{
+  color: green;
+}
 h3{
   margin-left: 40%;
 }
@@ -23,7 +29,7 @@ form{
   border-color: solid #6554af;
   box-shadow: 1px 1px 2px #6554af;
   width: 28%;
-  height: 300px;
+  height: 350px;
   font-size: .8rem;
 }
 .formContainer{
@@ -41,12 +47,11 @@ form{
 input{
   width: 70%;
 }
+
 @media screen and (max-width: 920px) {
   h3{ 
     margin-left: 36%;
   }
-}
-@media screen and (max-width: 920px) {
   h4{ 
     margin-left: -8%;
   }
@@ -75,6 +80,7 @@ input{
   form{
     font-size: .6rem;
     width: 50%;
+    height: 300px;
   }
 }
 @media screen and (max-width: 540px) {
