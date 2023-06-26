@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="registerform.css">
 </head>
 <body>
-  <form action="submit" method="post">
+  <form action="createaccount.php" method="post">
     
       <div class="greet">Welcome to My System</div>
       <div class="headText">Register Your Acount</div>
@@ -19,15 +19,15 @@
         </div>
         <div class="area2">
           <div>Last Name*</div>
-          <input type="text" name="LastName" id="LastName" required>
+          <input type="text" name="lastName" id="lastName" required>
         </div>
         <div class="area2">
           <div>Birthday*</div>
-          <input type="date" name="birthday" id="Birthday" required>
+          <input type="date" name="birthday" id="birthday" required>
         </div>
         <div class="area5">
           <div>Address*</div>
-          <textarea name="Address" id="Address" placeholder="1234 Main St" required></textarea>
+          <textarea name="address" id="address" placeholder="1234 Main St" required></textarea>
         </div>
         <div class="area2">
           <div>City*</div>
@@ -40,6 +40,7 @@
             <option value="abra">Abra</option>
             <option value="batangas">Batangas</option>
             <option value="cavite">Cavite</option>
+            <option value="other">other province</option>
           </select>
           </div>
           <div>
@@ -57,7 +58,7 @@
         </div>
         <div class="area2">
           <div>Confirm Password</div>
-          <input type="password" name="password">
+          <input type="password" name="confirmPassword">
         </div>
         <div class="area12">
           <input type="checkbox" name="subscribe">
