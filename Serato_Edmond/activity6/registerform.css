@@ -39,16 +39,17 @@ form{
 .infoContainer div{
   padding-left: 10px;
 }
-.button{
+
+button{
   padding: 10px 0px;
   width: 97%;
-  margin: 20px 10px;
+  margin: 20px 8px;
   background-color: #6554af;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
-.button :hover{
+button :hover{
   background-color: #a296d8;
 }
 .area2{
@@ -57,6 +58,9 @@ form{
 .area2 input{
   width: 95%;
   height: 20px;
+}
+.area5 textarea{
+  width: 95%;
 }
 .area7{
   display: grid;
@@ -82,55 +86,22 @@ form{
   padding-left: 30%;
 }
 /*----------------media Query---------------*/
-@media screen and (max-width: 920px) {
-  h3{ 
-    margin-left: 36%;
-  }
-  h4{ 
-    margin-left: -8%;
-  }
-  form{
-    font-size: .7rem;
-    width: 32%;
-  }
-}
 
-@media screen and (max-width: 720px) {
-  h3{ 
-    margin-left: 35%;
-  }
-  h4{ 
-    margin-left: -10%;
-  }
-  form{
-    font-size: .6rem;
-    width: 40%;
-  }
-}
 @media screen and (max-width: 620px) {
-  h3{ 
-    margin-left: 40%;
-  }
   form{
     font-size: .6rem;
-    width: 50%;
-    height: 300px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 540px) {
-  h3{ 
-    margin-left: 40%;
-  }
+/*@media screen and (max-width: 540px) {
   form{
     font-size: .6rem;
-    width: 60%;
+    width: 85%;
   }
 }
 @media screen and (max-width: 420px) {
-  h3{ 
-    margin-left: 40%;
-  }
   form{
     font-size: .6rem;
+    width: 90%;
   }
-}
+}*/
