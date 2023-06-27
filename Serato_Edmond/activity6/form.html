@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form action="submit" method="post" id="logIn">
+    <h3>LOG IN</h3><br />
+    <div class="formContainer">
+      <div id="head" class="heading">
+        <h4>Welcome to Bloogee</h4>
+      </div>
+      <div class="userName">
+        <label class="userName">USER NAME</label> <br />
+        <input type="text" name="userName" id="userName" placeholder="User Name" value=""><br />
+      </div>
+      <div class="password">
+        <label class="password">PASSWORD</label> <br />
+        <input type="password" name="password" id="password" placeholder="password" value=""><br />
+      </div>
+      <div class="logIn">
+        <input type="button" onclick="logIn()" value="login">
+        <a href="registerform.html">register</a>
+      </div>
+      <p>or register with</p>
+      <p>Facebook</p>
+      <p>Gmail</p>
+    </div> 
+  </form>
+  <script src="form.js"></script>
+</body>
+</html>

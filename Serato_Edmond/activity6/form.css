@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.warningEmpty{
+  background-color: rgb(248, 187, 187);
+  width: 162px;
+  font-size: .6rem;
+  transform: translateY(-10px);
+}
+.warningWrongPassword{
+  background-color: rgb(240, 175, 220);
+  width: 130px;
+  font-size: .6rem;
+  top: -5px;
+  transform: translateY(-10px);
+}
+.success{
+  background-color: rgb(169, 240, 169);
+  width: 77px;
+  font-size: .6rem;
+  top: -5px;
+  transform: translateY(-10px);
+}
+h3{
+  margin-left: 40%;
+}
+h4{
+  
+  line-height: .1px;
+}
+form{
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  background-color: rgb(207, 177, 214);
+  color: var(--fontColor);
+  border-style: outset;
+  border-style: inset;
+  border-radius: 8px;
+  border-width: 4px;
+  border-color: solid #6554af;
+  box-shadow: 1px 1px 2px #6554af;
+  width: 28%;
+  height: 350px;
+  font-size: .8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formContainer{
+  padding-left:23%;
+  
+}
+.password{
+  margin: 9px 0px;
+}
+.logIn{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+input{
+  width: 70%;
+}
+/*----------------registration form---------*/
+/*----------------media Query---------------*/
+@media screen and (max-width: 920px) {
+  h3{ 
+    margin-left: 36%;
+  }
+  h4{ 
+    margin-left: -8%;
+  }
+  form{
+    font-size: .7rem;
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h3{ 
+    margin-left: 35%;
+  }
+  h4{ 
+    margin-left: -10%;
+  }
+  form{
+    font-size: .6rem;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+    width: 50%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 540px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 420px) {
+  h3{ 
+    margin-left: 40%;
+  }
+  form{
+    font-size: .6rem;
+  }
+}
