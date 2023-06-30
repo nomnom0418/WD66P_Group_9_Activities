@@ -1,0 +1,21 @@
+.company{
+    border: 2px solid #c6e3fa;
+    border-radius: 5px;
+    background-color: rgba(0, 93, 244, 0.494);
+    opacity: .6;
+  }
+  .info{
+     border: 2px solid #808080;
+     padding: 10px;
+     border-radius: 5px;
+     background-color:rgba(233, 233, 233, 0.444);
+
+  }
+  body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5rem;
+    background-color: rgb(240, 248, 252);
+  }
